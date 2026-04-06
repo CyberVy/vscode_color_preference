@@ -1,0 +1,97 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "entity.name.tag"
+                ],
+                "settings": {
+                    "foreground": "#FBC344",
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator.expression",
+                    "keyword.operator.new",
+                    "keyword.control",
+                    "storage.type",
+                    "storage.modifier",
+                    "variable.language.this",
+                    "support.type.primitive.ts",
+                    "constant.language.boolean",
+                    "constant.language.null",
+                    "constant.language.undefined"
+                ],
+                "settings": {
+                    "foreground": "#E28A42",
+                }
+            },
+            {
+                "scope": [
+                    "support.class.component.tsx"
+                ],
+                "settings": {
+                    "foreground": "#35D0C6",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope" : "constant.numeric",
+                "settings": {
+                    "foreground": "#6C95B6",
+                }
+            },
+            {
+                "scope": [
+                    "keyword.operator.logical",
+                    "keyword.operator.arithmetic"
+                ],
+                "settings": {
+                    "foreground": "#A9B7C6",
+                }
+            },
+            {
+                "scope": [
+                    "string.quoted.double",
+                    "string.template"
+                ],
+                "settings": {
+                    "foreground": "#CE7F70",
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.attribute-name.tsx"
+                ],
+                "settings": {
+                    "foreground": "#CCCCCC",
+                }
+            },
+            {
+                "scope": [
+                    "comment.line.double-slash",
+                    "comment.block.documentation"
+                ],
+                "settings": {
+                    "foreground": "#808080",
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "keyword": "#E28A42",
+            "variable": "#A9B7C6",
+            "class": "#35D0C6",
+            "function": "#FBC344",
+            "method": "#FBC344",
+            "interface": "#FBC344",
+            "struct": "#FBC344",
+            "property": "#8C73A1",
+            "namespace": "#8C73A1",
+            "parameter": "#EEC366",
+            "variable.defaultLibrary": "#8C73A1"
+        }
+    }
+}
