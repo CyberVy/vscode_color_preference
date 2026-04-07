@@ -1,5 +1,10 @@
 {
+    "terminal.integrated.inheritEnv": false,
+    "editor.fontSize": 13,
+    "files.autoSave": "afterDelay",
+    "workbench.editor.enablePreview": false,
     "workbench.colorCustomizations": {
+        "editor.background": "#252525",
         "gitDecoration.ignoredResourceForeground": "#888800",
         "gitDecoration.modifiedResourceForeground": "#00bbff"
     },
@@ -21,7 +26,7 @@
                     "storage.type",
                     "storage.modifier",
                     "variable.language.this",
-                    "support.type.primitive.ts",
+                    "support.type.primitive",
                     "constant.language.boolean",
                     "constant.language.null",
                     "constant.language.undefined"
@@ -36,7 +41,6 @@
                 ],
                 "settings": {
                     "foreground": "#35D0C6",
-                    "fontStyle": "bold"
                 }
             },
             {
@@ -70,6 +74,14 @@
                 ],
                 "settings": {
                     "foreground": "#CCCCCC",
+                }
+            },
+            {
+                "scope": [
+                    "support.type.property-name.json"
+                ],
+                "settings": {
+                    "foreground": "#8C73A1",
                 }
             },
             {
