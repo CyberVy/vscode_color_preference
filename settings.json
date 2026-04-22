@@ -1,8 +1,12 @@
 {
     "terminal.integrated.inheritEnv": false,
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
     "files.autoSave": "afterDelay",
     "workbench.editor.enablePreview": false,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "terminal.integrated.initialHint": false,
+    "workbench.editor.empty.hint": "hidden",
     "workbench.colorCustomizations": {
         "editor.background": "#252525",
         "gitDecoration.ignoredResourceForeground": "#888800",
@@ -92,6 +96,14 @@
                 "settings": {
                     "foreground": "#808080",
                 }
+            },
+            {
+                "scope": [
+                    "entity.name.function"
+                ],
+                "settings": {
+                    "foreground": "#FBC344"
+                }
             }
         ]
     },
@@ -107,8 +119,11 @@
             "property": "#8C73A1",
             "namespace": "#8C73A1",
             "parameter": "#EEC366",
+            "type": "#AAEEDD",
             "variable.defaultLibrary": "#8C73A1"
         }
     },
-    "workbench.colorTheme": "Visual Studio Dark"
+    "workbench.colorTheme": "Visual Studio Dark",
+    "chat.disableAIFeatures": true,
+    "diffEditor.hideUnchangedRegions.enabled": true
 }
