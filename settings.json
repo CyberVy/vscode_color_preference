@@ -1,5 +1,6 @@
 {
     "terminal.integrated.inheritEnv": false,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
     "files.autoSave": "afterDelay",
     "workbench.editor.enablePreview": false,
@@ -41,7 +42,8 @@
             },
             {
                 "scope": [
-                    "support.class.component.tsx"
+                    "support.class.component.tsx",
+                    "entity.name.type.class"
                 ],
                 "settings": {
                     "foreground": "#35D0C6",
@@ -99,7 +101,8 @@
             },
             {
                 "scope": [
-                    "entity.name.function"
+                    "entity.name.function",
+                    "variable.parameter.function"
                 ],
                 "settings": {
                     "foreground": "#FBC344"
@@ -123,5 +126,19 @@
             "variable.defaultLibrary": "#8C73A1"
         }
     },
-    "workbench.colorTheme": "Visual Studio Dark"
+    "workbench.colorTheme": "Visual Studio Dark",
+    "chat.disableAIFeatures": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "js/ts.updateImportsOnFileMove.enabled": "always",
+    "rust-analyzer.checkOnSave": false,
+    "json.schemaDownload.trustedDomains": {
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true
+    },
+    "update.mode": "manual"
 }
