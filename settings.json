@@ -1,6 +1,6 @@
 {
     "terminal.integrated.inheritEnv": false,
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
     "files.autoSave": "afterDelay",
     "workbench.editor.enablePreview": false,
@@ -117,7 +117,7 @@
             "class": "#35D0C6",
             "function": "#FBC344",
             "method": "#FBC344",
-            "interface": "#FBC344",
+            "interface": "#AAEEDD",
             "struct": "#FBC344",
             "property": "#8C73A1",
             "namespace": "#8C73A1",
@@ -137,6 +137,7 @@
         "https://json.schemastore.org/": true,
         "https://raw.githubusercontent.com/devcontainers/spec/": true,
         "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schema.tauri.app": true,
         "https://schemastore.azurewebsites.net/": true,
         "https://www.schemastore.org/": true
     },
